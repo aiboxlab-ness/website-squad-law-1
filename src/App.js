@@ -1,24 +1,70 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="demo-big-content">
+      <Layout>
+        <Header
+          className="header-color"
+          style={{ fontFamily: "Oxygen, sans-serif" }}
+          title={
+            <Link
+              to="/"
+              style={{
+                fontFamily: "Oxygen, sans-serif",
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              Home
+            </Link>
+          }
+          scroll
         >
-          Learn React
-        </a>
-      </header>
+          <Navigation>
+            <Link to="/aboutus">Sobre Nós</Link>
+            <Link to="/product">Produto</Link>
+            <Link to="/process">Processos</Link>
+            <Link to="/artifacts">Artefatos</Link>
+            <Link to="/roles">Papéis</Link>
+            <Link to="/tools">Ferramentas</Link>
+            <Link to="/contact">Contato</Link>
+          </Navigation>
+        </Header>
+        <Drawer
+          style={{ fontFamily: "Oxygen, sans-serif" }}
+          title={
+            <Link
+              to="/"
+              style={{
+                fontFamily: "Oxygen, sans-serif",
+                color: "rgb(66,66,66)",
+                textDecoration: "none",
+              }}
+            >
+              Squad Law 1
+            </Link>
+          }
+        >
+          <Navigation>
+            <Link to="/aboutus">Sobre Nós</Link>
+            <Link to="/product">Produto</Link>
+            <Link to="/process">Processos</Link>
+            <Link to="/artifacts">Artefatos</Link>
+            <Link to="/roles">Papéis</Link>
+            <Link to="/tools">Ferramentas</Link>
+            <Link to="/contact">Contato</Link>
+          </Navigation>
+        </Drawer>
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
+      </Layout>
     </div>
   );
 }
