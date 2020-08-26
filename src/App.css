@@ -35,12 +35,14 @@
 }
 
 .logo-pic-aibox {
-  height: 100px;
+  max-width: 40%;
+  height: auto;
   padding-top: 5em;
 }
 
 .logo-pic-ness {
-  height: 100px;
+  max-width: 30%;
+  height: auto;
   padding-top: 5em;
   padding-left: 5em;
 }
