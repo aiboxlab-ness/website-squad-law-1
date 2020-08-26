@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2108fccc459c09cf7b4fa0e22c72ae28",
+    "revision": "13004bc9b016c197268309a23f19a1b5",
     "url": "/website-squad-law-1/index.html"
   },
   {
-    "revision": "b75fde0f0f30ea1d7be3",
+    "revision": "787ceeaea08e8e3be178",
     "url": "/website-squad-law-1/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "2ca44a48569454b7640e",
+    "revision": "97d3df9ef9b008dd9c76",
     "url": "/website-squad-law-1/static/css/main.fbe4a6c7.chunk.css"
   },
   {
-    "revision": "b75fde0f0f30ea1d7be3",
-    "url": "/website-squad-law-1/static/js/2.aac4ea9d.chunk.js"
+    "revision": "787ceeaea08e8e3be178",
+    "url": "/website-squad-law-1/static/js/2.38e0eb36.chunk.js"
   },
   {
     "revision": "e1d2b252d73a4c2bc4d6802ca4ba1aa0",
-    "url": "/website-squad-law-1/static/js/2.aac4ea9d.chunk.js.LICENSE.txt"
+    "url": "/website-squad-law-1/static/js/2.38e0eb36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ca44a48569454b7640e",
-    "url": "/website-squad-law-1/static/js/main.bbf75596.chunk.js"
+    "revision": "97d3df9ef9b008dd9c76",
+    "url": "/website-squad-law-1/static/js/main.b97e35fa.chunk.js"
   },
   {
     "revision": "6587acd4820afaa8d436",
