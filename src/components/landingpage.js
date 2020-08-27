@@ -12,7 +12,7 @@ class LandingPage extends Component {
             <div className="banner-text" style={{ marginBottom: "50px" }}>
               <img className="logo-pic-aibox" src={logo_aibox} alt="logo" />
               <img className="logo-pic-ness" src={logo_ness} alt="logo" />
-              <h1>Squad Law 1</h1>
+              <h1>ArtificiLaw</h1>
               <hr />
               <p>
                 Ciência de Dados & Inteligência Artificial Aplicada à Processos
