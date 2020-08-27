@@ -21,7 +21,7 @@ class LandingPage extends Component {
               <div className="social-links">
                 {/* Github */}
                 <a
-                  href="https://github.com/orgs/aiboxlab-ness/teams/squad-law-1"
+                  href="https://github.com/aiboxlab-ness/projects-mod-1-squad-law-1"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
