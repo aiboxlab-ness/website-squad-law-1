@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "431dedc76f3052ed3aa5de08bed6d338",
+    "revision": "0e752eb1f075997561624bfd98aa6e84",
     "url": "/website-squad-law-1/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website-squad-law-1/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "d736336ba2fd527d23e0",
+    "revision": "9b8fc19f1e9cfbd966fd",
     "url": "/website-squad-law-1/static/css/main.36b9c80c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website-squad-law-1/static/js/2.38e0eb36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d736336ba2fd527d23e0",
-    "url": "/website-squad-law-1/static/js/main.b97e35fa.chunk.js"
+    "revision": "9b8fc19f1e9cfbd966fd",
+    "url": "/website-squad-law-1/static/js/main.9095ef76.chunk.js"
   },
   {
     "revision": "6587acd4820afaa8d436",
