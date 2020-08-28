@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import "../assets/styles/tools.css";
 
 class Tools extends Component {
   render() {
@@ -18,16 +19,44 @@ class Tools extends Component {
             phone={12}
             style={{ margin: "auto" }}
           >
-            <div style={{ textIndent: "2em" }}>
-              <div style={{ textIndent: "2em" }}>
-                <p>
-                  O produto é Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
-                </p>
-              </div>
+            <div className="teste" style={{ textIndent: "-0,5em"}}>
+                <h3><strong>Comunicação</strong></h3>
+                <ul>
+                  <li>Discord
+                  <ul>
+                      <li>Comunicação via audio</li>
+                    </ul>
+                  </li>
+                  <li>Whastapp
+                  <ul>
+                      <li>Comunicação via texto</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h3><strong>Gestão</strong></h3>
+                <ul>
+                  <li><a href="https://trello.com/pt-BR">Trello</a>
+                    <ul>
+                      <li>Acompanhamento da evolução dos requisitos do projeto.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h3><strong>Controle de versão</strong></h3>
+                <ul>
+                  <li><a href="https://github.com/">Github</a>
+                    <ul>
+                      <li>Armazenamento e versionamento de código fonte.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h3><strong>Infraestrutura</strong></h3>
+                <ul>
+                  <li>Google Cloud Plataform
+                    <ul>
+                      <li>Servidores de aplicação e armazenamento de dados estáticos.</li>
+                    </ul>
+                  </li>   
+                </ul>
             </div>
 
             <Cell

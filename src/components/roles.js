@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import caio from "../image/caio.png";
+import diogo from "../image/diogo.jpeg";
+import paulo from "../image/paulo.jpeg";
+import richardson from "../image/richardson.jpeg";
+import "../assets/styles/roles.css";
 
 class Roles extends Component {
   render() {
@@ -7,8 +12,6 @@ class Roles extends Component {
       <div className="about-container">
         <Grid style={{ overflow: "auto" }}>
           <Cell className="about-title" col={12}>
-            <h1>Papeis</h1>
-            <h3>...</h3>
           </Cell>
 
           <Cell
@@ -21,14 +24,46 @@ class Roles extends Component {
             <div style={{ textIndent: "2em" }}>
               <div style={{ textIndent: "2em" }}>
                 <p>
-                  O produto é Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
                 </p>
               </div>
             </div>
+            <section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header>
+						<h2> Equipe</h2>
+					</header>
+					<div class="flex flex-4">
+						<div class="box person">
+							<div class="image round">
+								<img src={caio} alt="Caio" />
+							</div>
+							<h3>Caio</h3>
+							<p>Engenheiro de Software</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src={diogo} alt="Diogo" />
+							</div>
+							<h3>Diogo</h3>
+							<p>Engenheiro de Software</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src={paulo} alt="Paulo" />
+							</div>
+							<h3>Paulo</h3>
+							<p>Engenheiro de Software</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src={richardson} alt="Richardson" />
+							</div>
+							<h3>Richardson</h3>
+							<p>Engenheiro de Software</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
             <Cell
               style={{
