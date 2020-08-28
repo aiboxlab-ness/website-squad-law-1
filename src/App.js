@@ -47,7 +47,7 @@ function App() {
                   textDecoration: "none",
                 }}
               >
-                Squad Law 1
+                ArtificiLaw
               </Link>
             }
           >
