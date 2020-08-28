@@ -10,8 +10,8 @@ class LandingPage extends Component {
         <Grid className="landing-grid" style={{ overflow: "auto" }}>
           <Cell col={12}>
             <div className="banner-text" style={{ marginBottom: "50px" }}>
-              <img className="logo-pic-aibox" src={logo_aibox} alt="logo" />
-              <img className="logo-pic-ness" src={logo_ness} alt="logo" />
+            <a href="https://aiboxlab.org/"><img className="logo-pic-aibox" src={logo_aibox} alt="logo" /></a>
+            <a href="https://www.ness.com.br"><img className="logo-pic-ness" src={logo_ness} alt="logo" /></a>
               <h1>ArtificiLaw</h1>
               <hr />
               <p>
