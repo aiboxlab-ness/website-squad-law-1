@@ -92,7 +92,7 @@ class AboutPage extends Component {
                 <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
                     <div class="image round" style={{marginTop:"40px"}}>
-                      <img className="about-profile-pic" src={diogo} alt="Diogo" style={{width:"60%", margin: "auto"}} />
+                      <img className="about-profile-pic" src={diogo} alt="Diogo" style={{width:"55%", margin: "auto"}} />
                     </div>
                     
                     </CardTitle>
@@ -130,7 +130,7 @@ class AboutPage extends Component {
                 <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
                     <div class="image round" style={{marginTop:"40px"}}>
-                      <img className="about-profile-pic" src={paulo} alt="Paulo" style={{width:"60%", margin: "auto"}} />
+                      <img className="about-profile-pic" src={paulo} alt="Paulo" style={{width:"55%", margin: "auto"}} />
                     </div>
                     
                     </CardTitle>
