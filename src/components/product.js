@@ -8,7 +8,7 @@ class Product extends Component {
         <Grid style={{ overflow: "auto" }}>
           <Cell className="about-title" col={12}>
             <h1>Nosso Produto</h1>
-            <h3>...</h3>
+
           </Cell>
 
           <Cell

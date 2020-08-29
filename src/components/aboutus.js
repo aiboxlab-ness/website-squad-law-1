@@ -1,5 +1,23 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { HashLink as Link } from "react-router-hash-link";
+import caio from "../image/caio.png";
+import diogo from "../image/diogo.jpeg";
+import paulo from "../image/paulo.jpeg";
+import richardson from "../image/richardson.jpeg";
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardActions,
+  Button,
+  CardMenu,
+  IconButton,
+  CardText,
+} from "react-mdl";
+
 
 class AboutPage extends Component {
   render() {
@@ -7,8 +25,7 @@ class AboutPage extends Component {
       <div className="about-container">
         <Grid style={{ overflow: "auto" }}>
           <Cell className="about-title" col={12}>
-            <h1>Então quem somos?</h1>
-            <h3>...</h3>
+            <h1>Nossa Equipe</h1>
           </Cell>
 
           <Cell
@@ -20,14 +37,8 @@ class AboutPage extends Component {
           >
             <div style={{ textIndent: "2em" }}>
               <div style={{ textIndent: "2em" }}>
-                <p>
-                  O curso usará a metodologia de Aprendizagem Baseada em
-                  Problemas (PBL, do inglês Problem-Based Learning). O PBL
-                  sugere o uso de situações reais em ambientes de aprendizagem,
-                  o que ao mesmo tempo motiva os estudantes e melhora a
-                  transferência de conhecimento teórico para situações reais. As
-                  aulas serão quinzenais na sexta a noite (18:30-21:30) e no
-                  sábado o dia todo (8:00-12:00 e 13:00-17:00).
+                <p style={{textAlign:"center"}}>
+                  Nossa equipe é formada por engenheiros de software, com diversos backgrounds dentro da tecnologia da informação.
                 </p>
               </div>
               <div style={{ textIndent: "2em" }}>
@@ -35,67 +46,163 @@ class AboutPage extends Component {
               </div>
             </div>
 
-            <div className="components">
-              <div className="squad-component">
-                <img
-                  className="about-profile-pic"
-                  src="https://image.freepik.com/vetores-gratis/homem-negocios-perfil-caricatura_18591-58479.jpg"
-                  alt="profile"
-                />
-                <h3>Integrante 1</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
+            <div className="components" style={{width: '100%', margin: 'auto'}}>
 
-              <div className="squad-component">
-                <img
-                  className="about-profile-pic"
-                  src="https://image.freepik.com/vetores-gratis/homem-negocios-perfil-caricatura_18591-58479.jpg"
-                  alt="profile"
-                />
-                <h3>Integrante 2</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
+            <Grid style={{ overflow: "auto" }}>
+              <Cell col={6} tablet={12} phone={12}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
+                    <div class="image round" style={{marginTop:"40px"}}>
+                      <img className="about-profile-pic" src={caio} alt="Caio" style={{width:"50%", margin: "auto"}} />
+                    </div>
+                    
+                    </CardTitle>
+                    <CardText style={{ textAlign: "center", margin:"auto"}}>
+                      {" "}
+                      <h4 style={{textAlign:"center"}}>Caio</h4>
+                      Engenheiro de Software
+                      {" "}
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        Github
+                      </Button>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        LinkedIn
+                      </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                      <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+              </Cell>
+           
 
-              <div className="squad-component">
-                <img
-                  className="about-profile-pic"
-                  src="https://image.freepik.com/vetores-gratis/homem-negocios-perfil-caricatura_18591-58479.jpg"
-                  alt="profile"
-                />
-                <h3>Integrante 3</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div className="squad-component">
-                <img
-                  className="about-profile-pic"
-                  src="https://image.freepik.com/vetores-gratis/homem-negocios-perfil-caricatura_18591-58479.jpg"
-                  alt="profile"
-                />
-                <h3>Integrante 4</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
+                      
+ 
+              <Cell col={6} tablet={12} phone={12}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
+                    <div class="image round" style={{marginTop:"40px"}}>
+                      <img className="about-profile-pic" src={diogo} alt="Diogo" style={{width:"60%", margin: "auto"}} />
+                    </div>
+                    
+                    </CardTitle>
+                    <CardText style={{ textAlign: "center", margin:"auto"}}>
+                      {" "}
+                      <h4 style={{textAlign:"center"}}>Diogo</h4>
+                      Engenheiro de Software
+                      {" "}
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        Github
+                      </Button>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        LinkedIn
+                      </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                      <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+              </Cell>
+              </Grid>
+
+              <Grid style={{ overflow: "auto" }}>
+              <Cell col={6} tablet={12} phone={12}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
+                    <div class="image round" style={{marginTop:"40px"}}>
+                      <img className="about-profile-pic" src={paulo} alt="Paulo" style={{width:"60%", margin: "auto"}} />
+                    </div>
+                    
+                    </CardTitle>
+                    <CardText style={{ textAlign: "center", margin:"auto"}}>
+                      {" "}
+                      <h4 style={{textAlign:"center"}}>Paulo</h4>
+                      Engenheiro de Software
+                      {" "}
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        Github
+                      </Button>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        LinkedIn
+                      </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                      <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+              </Cell>
+           
+
+                      
+ 
+              <Cell col={6} tablet={12} phone={12}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
+                    <div class="image round" style={{margin:"auto", }}>
+                      <img className="about-profile-pic" src={richardson} alt="Richardson" style={{width:"80%", margin: "auto"}} />
+                    </div>
+                    
+                    </CardTitle>
+                    <CardText style={{ textAlign: "center", margin:"auto"}}>
+                      {" "}
+                      <h4 style={{textAlign:"center"}}>Richardson</h4>
+                      Engenheiro de Software
+                      {" "}
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        Github
+                      </Button>
+                      <Button
+                        href="https://github.com/prpereiras89/predictor"
+                        target="_blank"
+                        colered
+                      >
+                        LinkedIn
+                      </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                      <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+              </Cell>
+              </Grid>
+
             </div>
-
             <Cell
               style={{
                 width: "100%",

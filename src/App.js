@@ -31,7 +31,7 @@ function App() {
               <Link to="/product">Produto</Link>
               <Link to="/process">Processos</Link>
               <Link to="/artifacts">Artefatos</Link>
-              <Link to="/roles">Papéis</Link>
+              {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>
               <Link to="/contact">Contato</Link>
             </Navigation>
@@ -56,7 +56,7 @@ function App() {
               <Link to="/product">Produto</Link>
               <Link to="/process">Processos</Link>
               <Link to="/artifacts">Artefatos</Link>
-              <Link to="/roles">Papéis</Link>
+              {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>
               <Link to="/contact">Contato</Link>
             </Navigation>
