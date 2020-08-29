@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/website-squad-law-1/static/css/main.7141b38e.chunk.css",
-    "main.js": "/website-squad-law-1/static/js/main.66105425.chunk.js",
-    "main.js.map": "/website-squad-law-1/static/js/main.66105425.chunk.js.map",
+    "main.css": "/website-squad-law-1/static/css/main.b353db02.chunk.css",
+    "main.js": "/website-squad-law-1/static/js/main.25fd7981.chunk.js",
+    "main.js.map": "/website-squad-law-1/static/js/main.25fd7981.chunk.js.map",
     "runtime-main.js": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js",
     "runtime-main.js.map": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js.map",
     "static/css/2.e4346227.chunk.css": "/website-squad-law-1/static/css/2.e4346227.chunk.css",
-    "static/js/2.74adeb98.chunk.js": "/website-squad-law-1/static/js/2.74adeb98.chunk.js",
-    "static/js/2.74adeb98.chunk.js.map": "/website-squad-law-1/static/js/2.74adeb98.chunk.js.map",
+    "static/js/2.7c4e578c.chunk.js": "/website-squad-law-1/static/js/2.7c4e578c.chunk.js",
+    "static/js/2.7c4e578c.chunk.js.map": "/website-squad-law-1/static/js/2.7c4e578c.chunk.js.map",
     "index.html": "/website-squad-law-1/index.html",
-    "precache-manifest.1bf648717a8152fb4c21b5113dee0a4c.js": "/website-squad-law-1/precache-manifest.1bf648717a8152fb4c21b5113dee0a4c.js",
+    "precache-manifest.fe97f8d8923dfe24e20b64df92bfa06e.js": "/website-squad-law-1/precache-manifest.fe97f8d8923dfe24e20b64df92bfa06e.js",
     "service-worker.js": "/website-squad-law-1/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/website-squad-law-1/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.7141b38e.chunk.css.map": "/website-squad-law-1/static/css/main.7141b38e.chunk.css.map",
-    "static/js/2.74adeb98.chunk.js.LICENSE.txt": "/website-squad-law-1/static/js/2.74adeb98.chunk.js.LICENSE.txt",
+    "static/css/main.b353db02.chunk.css.map": "/website-squad-law-1/static/css/main.b353db02.chunk.css.map",
+    "static/js/2.7c4e578c.chunk.js.LICENSE.txt": "/website-squad-law-1/static/js/2.7c4e578c.chunk.js.LICENSE.txt",
     "static/media/caio.png": "/website-squad-law-1/static/media/caio.0f99337b.png",
     "static/media/diogo.jpeg": "/website-squad-law-1/static/media/diogo.02730a35.jpeg",
     "static/media/logo-aibox.png": "/website-squad-law-1/static/media/logo-aibox.2e095358.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.ebf6c1a6.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.74adeb98.chunk.js",
-    "static/css/main.7141b38e.chunk.css",
-    "static/js/main.66105425.chunk.js"
+    "static/js/2.7c4e578c.chunk.js",
+    "static/css/main.b353db02.chunk.css",
+    "static/js/main.25fd7981.chunk.js"
   ]
 }
