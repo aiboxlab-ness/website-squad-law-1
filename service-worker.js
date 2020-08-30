@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/website-squad-law-1/precache-manifest.51a977a5b153ba565aaf5dff8cde71a4.js"
+  "/website-squad-law-1/precache-manifest.26385e2c3fd1aa5ed1f8afd5d31bfac0.js"
 );
 
 self.addEventListener('message', (event) => {
