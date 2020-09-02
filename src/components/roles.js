@@ -68,7 +68,6 @@ class Roles extends Component {
             <Cell
               style={{
                 width: "100%",
-                height: "500px",
                 position: "relative",
               }}
             ></Cell>

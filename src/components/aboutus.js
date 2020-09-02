@@ -48,7 +48,7 @@ class AboutPage extends Component {
 
             <div className="components" style={{width: '100%', margin: 'auto'}}>
 
-            <Grid style={{ overflow: "auto" }}>
+            <Grid>
               <Cell col={6} tablet={12} phone={12}>
                 <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
@@ -65,14 +65,14 @@ class AboutPage extends Component {
                     </CardText>
                     <CardActions border>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://github.com/caiocesarrm"
                         target="_blank"
                         colered
                       >
                         Github
                       </Button>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://github.com/caiocesarrm"
                         target="_blank"
                         colered
                       >
@@ -104,14 +104,14 @@ class AboutPage extends Component {
                     </CardText>
                     <CardActions border>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://github.com/diogocaetano"
                         target="_blank"
                         colered
                       >
                         Github
                       </Button>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://www.linkedin.com/in/diogocaetanoalves/"
                         target="_blank"
                         colered
                       >
@@ -125,7 +125,7 @@ class AboutPage extends Component {
               </Cell>
               </Grid>
 
-              <Grid style={{ overflow: "auto" }}>
+              <Grid>
               <Cell col={6} tablet={12} phone={12}>
                 <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
@@ -142,14 +142,14 @@ class AboutPage extends Component {
                     </CardText>
                     <CardActions border>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://github.com/prpsilva"
                         target="_blank"
                         colered
                       >
                         Github
                       </Button>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://www.linkedin.com/in/paulo-pereira-prps/"
                         target="_blank"
                         colered
                       >
@@ -166,7 +166,7 @@ class AboutPage extends Component {
                       
  
               <Cell col={6} tablet={12} phone={12}>
-                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", height:"450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
                     <div class="image round" style={{margin:"auto", }}>
                       <img className="about-profile-pic" src={richardson} alt="Richardson" style={{width:"80%", margin: "auto"}} />
@@ -181,14 +181,14 @@ class AboutPage extends Component {
                     </CardText>
                     <CardActions border>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://github.com/jcrbsa"
                         target="_blank"
                         colered
                       >
                         Github
                       </Button>
                       <Button
-                        href="https://github.com/prpereiras89/predictor"
+                        href="https://www.linkedin.com/in/richardson-bruno-889b7944/"
                         target="_blank"
                         colered
                       >
@@ -206,7 +206,6 @@ class AboutPage extends Component {
             <Cell
               style={{
                 width: "100%",
-                height: "500px",
                 position: "relative",
               }}
             ></Cell>
