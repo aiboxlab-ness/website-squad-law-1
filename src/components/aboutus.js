@@ -38,7 +38,7 @@ class AboutPage extends Component {
             <div style={{ textIndent: "2em" }}>
               <div style={{ textIndent: "2em" }}>
                 <p style={{textAlign:"center"}}>
-                  Nossa equipe é formada por engenheiros de software, com diversos backgrounds dentro da tecnologia da informação.
+                  Nossa equipe é formada por engenheiros de software, com diversos backgrounds dentro da tecnologia da informação. Qualquer dúvida sobre o JudLaw ou sugestões, entre em contato com a gente através do LinkedIn.
                 </p>
               </div>
               <div style={{ textIndent: "2em" }}>
@@ -69,6 +69,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-github" aria-hidden="true" style={{marginRight:"10px"}} />
                         Github
                       </Button>
                       <Button
@@ -76,6 +77,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-linkedin" aria-hidden="true" style={{marginRight:"10px"}} />
                         LinkedIn
                       </Button>
                     </CardActions>
@@ -108,6 +110,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-github" aria-hidden="true" style={{marginRight:"10px"}} />
                         Github
                       </Button>
                       <Button
@@ -115,6 +118,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-linkedin" aria-hidden="true" style={{marginRight:"10px"}} />
                         LinkedIn
                       </Button>
                     </CardActions>
@@ -146,6 +150,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-github" aria-hidden="true" style={{marginRight:"10px"}} />
                         Github
                       </Button>
                       <Button
@@ -153,6 +158,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-linkedin" aria-hidden="true" style={{marginRight:"10px"}} />
                         LinkedIn
                       </Button>
                     </CardActions>
@@ -185,6 +191,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-github" aria-hidden="true" style={{marginRight:"10px"}} />
                         Github
                       </Button>
                       <Button
@@ -192,6 +199,7 @@ class AboutPage extends Component {
                         target="_blank"
                         colered
                       >
+                        <i className="fab fa-linkedin" aria-hidden="true" style={{marginRight:"10px"}} />
                         LinkedIn
                       </Button>
                     </CardActions>

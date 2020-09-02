@@ -33,7 +33,7 @@ function App() {
               <Link to="/artifacts">Artefatos</Link>
               {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>
-              <Link to="/contact">Contato</Link>
+              {/*<Link to="/contact">Contato</Link>*/}
             </Navigation>
           </Header>
           <Drawer
@@ -58,7 +58,7 @@ function App() {
               <Link to="/artifacts">Artefatos</Link>
               {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>
-              <Link to="/contact">Contato</Link>
+              {/*<Link to="/contact">Contato</Link>*/}
             </Navigation>
           </Drawer>
           <Content>
