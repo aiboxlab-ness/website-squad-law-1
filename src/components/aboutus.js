@@ -49,6 +49,47 @@ class AboutPage extends Component {
             <div className="components" style={{width: '100%', margin: 'auto'}}>
 
             <Grid>
+              <Cell col={12} tablet={12} phone={12}>
+                <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>
+                    <div class="image round" style={{margin:"auto"}}>
+                      <img className="about-profile-pic" src="https://aiboxlab.org/img/andre.jpeg" alt="Andre" style={{width:"80%", margin: "auto"}} />
+                    </div>
+                    
+                    </CardTitle>
+                    <CardText style={{ textAlign: "center", margin:"auto"}}>
+                      {" "}
+                      <h4 style={{textAlign:"center"}}>André</h4>
+                      Supervisor
+                      {" "}
+                    </CardText>
+                    <CardActions border>
+                      <Button
+                        href="https://github.com/andrecamara"
+                        target="_blank"
+                        colered
+                      >
+                        <i className="fab fa-github" aria-hidden="true" style={{marginRight:"10px"}} />
+                        Github
+                      </Button>
+                      <Button
+                        href="https://www.linkedin.com/in/andrecamara1/"
+                        target="_blank"
+                        colered
+                      >
+                        <i className="fab fa-linkedin" aria-hidden="true" style={{marginRight:"10px"}} />
+                        LinkedIn
+                      </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                      <IconButton name="share" />
+                    </CardMenu>
+                  </Card>
+              </Cell>
+              </Grid>
+
+
+            <Grid>
               <Cell col={6} tablet={12} phone={12}>
                 <Card shadow={5} tablet={12} phone={12} style={{ minWidth: "450", margin: "auto" }}>
                     <CardTitle style={{ color: "black", height: "176px", textAlign: "center"}}>

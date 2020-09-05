@@ -21,8 +21,14 @@ class Artifacts extends Component {
            <div className="teste" style={{ textIndent: "-0,5em"}}>
                 <h3><strong>Iniciação</strong></h3>
                 <ul>
-                  <li>RPF</li>
-                  <li>Documento de Visão</li>
+                  <li><a
+                  href="https://docs.google.com/presentation/d/1E7OVY5M1qC5f76PQVf0b5ufmW7qANCh33zom1wotOTE/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Design Thinking</a></li>
+                  {/*<li>RPF</li>
+                  <li>Documento de Visão</li>*/}
                 </ul>
                 <h3><strong>Planejamento</strong></h3>
                 <ul>

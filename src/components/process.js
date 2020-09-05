@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import wbs from "../image/wbs.png";
 import {
   Tabs,
   Tab,
@@ -27,9 +28,28 @@ class Process extends Component {
       return (
         <div className="projects-grid">
           <Grid style={{ width: "100%" }}>
-            <Cell col={3} tablet={12} phone={12}>
-              <h1>MÓDULO 1</h1>
-              <p>coming out soon!</p>
+            <Cell col={12} tablet={12} phone={12}>
+              <h1 style={{ textAlign: "center" }}>Work breakdown Structure</h1>
+              <p style={{ margin:"auto", width:"15em"}}>
+                <ul>
+                  <li>
+                  <strong>Design Thinking</strong>
+                    <ul>
+                      <li>Roadmap</li>
+                    </ul>  
+                  </li>
+                  <li>
+                  <strong>Data scrapping Tribunais</strong>
+                    <ul>
+                      <li>Dados do Processo</li>
+                      <li>Movimentacao</li>
+                      <li>Documentos</li>
+                    </ul>
+                  </li>
+                  <li><strong>Extração de Informações</strong></li>
+                </ul>
+              </p>  
+              <div className="modulo-1-wbs"><img src={wbs} alt="wbs" style={{ width:"100%", margin: "auto"}} /></div>
             </Cell>
           </Grid>
         </div>
@@ -38,7 +58,7 @@ class Process extends Component {
       return (
         <div className="projects-grid">
           <Grid style={{ width: "100%" }}>
-            <Cell col={3} tablet={12} phone={12}>
+            <Cell col={12} tablet={12} phone={12}>
               <h1>MÓDULO 2</h1>
               <p>coming out soon!</p>
             </Cell>
@@ -49,7 +69,7 @@ class Process extends Component {
       return (
         <div className="projects-grid">
           <Grid style={{ width: "100%" }}>
-            <Cell col={3} tablet={12} phone={12}>
+            <Cell col={12} tablet={12} phone={12}>
               <h1>MÓDULO 3</h1>
               <p>coming out soon!</p>
             </Cell>
