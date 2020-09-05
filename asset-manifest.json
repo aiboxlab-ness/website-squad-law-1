@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/website-squad-law-1/static/css/main.46f4cbf4.chunk.css",
-    "main.js": "/website-squad-law-1/static/js/main.4149e847.chunk.js",
-    "main.js.map": "/website-squad-law-1/static/js/main.4149e847.chunk.js.map",
+    "main.js": "/website-squad-law-1/static/js/main.32acb39c.chunk.js",
+    "main.js.map": "/website-squad-law-1/static/js/main.32acb39c.chunk.js.map",
     "runtime-main.js": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js",
     "runtime-main.js.map": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js.map",
     "static/css/2.e4346227.chunk.css": "/website-squad-law-1/static/css/2.e4346227.chunk.css",
-    "static/js/2.11a8e054.chunk.js": "/website-squad-law-1/static/js/2.11a8e054.chunk.js",
-    "static/js/2.11a8e054.chunk.js.map": "/website-squad-law-1/static/js/2.11a8e054.chunk.js.map",
+    "static/js/2.a73f4c2c.chunk.js": "/website-squad-law-1/static/js/2.a73f4c2c.chunk.js",
+    "static/js/2.a73f4c2c.chunk.js.map": "/website-squad-law-1/static/js/2.a73f4c2c.chunk.js.map",
     "index.html": "/website-squad-law-1/index.html",
-    "precache-manifest.906b42fab3b78137c7ca6fd666709610.js": "/website-squad-law-1/precache-manifest.906b42fab3b78137c7ca6fd666709610.js",
+    "precache-manifest.3c91cedf259cfb7edafdadb5b4575723.js": "/website-squad-law-1/precache-manifest.3c91cedf259cfb7edafdadb5b4575723.js",
     "service-worker.js": "/website-squad-law-1/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/website-squad-law-1/static/css/2.e4346227.chunk.css.map",
     "static/css/main.46f4cbf4.chunk.css.map": "/website-squad-law-1/static/css/main.46f4cbf4.chunk.css.map",
-    "static/js/2.11a8e054.chunk.js.LICENSE.txt": "/website-squad-law-1/static/js/2.11a8e054.chunk.js.LICENSE.txt",
+    "static/js/2.a73f4c2c.chunk.js.LICENSE.txt": "/website-squad-law-1/static/js/2.a73f4c2c.chunk.js.LICENSE.txt",
     "static/media/caio.png": "/website-squad-law-1/static/media/caio.0f99337b.png",
     "static/media/diogo.jpeg": "/website-squad-law-1/static/media/diogo.02730a35.jpeg",
     "static/media/logo-aibox.png": "/website-squad-law-1/static/media/logo-aibox.2e095358.png",
     "static/media/mind_map.png": "/website-squad-law-1/static/media/mind_map.c4512b28.png",
     "static/media/ness-logo-website.svg": "/website-squad-law-1/static/media/ness-logo-website.60b408b9.svg",
     "static/media/paulo.jpeg": "/website-squad-law-1/static/media/paulo.64897b89.jpeg",
-    "static/media/richardson.jpeg": "/website-squad-law-1/static/media/richardson.0b0f9753.jpeg"
+    "static/media/richardson.jpeg": "/website-squad-law-1/static/media/richardson.0b0f9753.jpeg",
+    "static/media/wbs.png": "/website-squad-law-1/static/media/wbs.4d7f97cf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ebf6c1a6.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.11a8e054.chunk.js",
+    "static/js/2.a73f4c2c.chunk.js",
     "static/css/main.46f4cbf4.chunk.css",
-    "static/js/main.4149e847.chunk.js"
+    "static/js/main.32acb39c.chunk.js"
   ]
 }

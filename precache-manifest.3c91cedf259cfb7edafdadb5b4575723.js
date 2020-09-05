@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b707abe5f02921baffa8fb546b2c0e66",
+    "revision": "e31919fc50f3d19d8b35d3f76e01f6c1",
     "url": "/website-squad-law-1/index.html"
   },
   {
-    "revision": "f219204a68c21cddd8de",
+    "revision": "f1db4a44ac21f941b9f5",
     "url": "/website-squad-law-1/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "b771174baeeb88c59eb6",
+    "revision": "b0683a9acac280e4869e",
     "url": "/website-squad-law-1/static/css/main.46f4cbf4.chunk.css"
   },
   {
-    "revision": "f219204a68c21cddd8de",
-    "url": "/website-squad-law-1/static/js/2.11a8e054.chunk.js"
+    "revision": "f1db4a44ac21f941b9f5",
+    "url": "/website-squad-law-1/static/js/2.a73f4c2c.chunk.js"
   },
   {
     "revision": "e1d2b252d73a4c2bc4d6802ca4ba1aa0",
-    "url": "/website-squad-law-1/static/js/2.11a8e054.chunk.js.LICENSE.txt"
+    "url": "/website-squad-law-1/static/js/2.a73f4c2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b771174baeeb88c59eb6",
-    "url": "/website-squad-law-1/static/js/main.4149e847.chunk.js"
+    "revision": "b0683a9acac280e4869e",
+    "url": "/website-squad-law-1/static/js/main.32acb39c.chunk.js"
   },
   {
     "revision": "6587acd4820afaa8d436",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0b0f975399f3910556f1beffcaf3e56e",
     "url": "/website-squad-law-1/static/media/richardson.0b0f9753.jpeg"
+  },
+  {
+    "revision": "4d7f97cf9457e9910fd423164ae003ce",
+    "url": "/website-squad-law-1/static/media/wbs.4d7f97cf.png"
   }
 ]);
