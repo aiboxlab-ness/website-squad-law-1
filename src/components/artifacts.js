@@ -26,15 +26,39 @@ class Artifacts extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                   >
-                  Design Thinking</a></li>
+                  Processo de Design Thinking</a></li>
                   {/*<li>RPF</li>
                   <li>Documento de Visão</li>*/}
                 </ul>
                 <h3><strong>Planejamento</strong></h3>
                 <ul>
-                  <li>Product Backlog</li>
+                <li><a
+                  href="https://trello.com/b/jnc8AwH1/artificilaw-produto"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Product Backlog e Kanban</a></li>
+                  <li><a
+                  href="https://docs.google.com/document/d/1WIe55fPhA2AWm2uOUPTHP0MavaBQUiQ-3xJNtZeQklY/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  História de Usuário</a></li>
+                  
+                  <li><a
+                  href="https://docs.google.com/presentation/d/1dyIoabZVPsR4AHTwQsRHbDsfdfSvTnOSkeKxI47S7bM/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Revisão Sistemática da Literatura</a></li>
+                  <li><a
+                  href="https://docs.google.com/presentation/d/1Riv6b6roAszjvI3PlsJKliljrVoDr1MOjXODtMA46lk/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Apresentação da Primeira Reunião com a PO</a></li>
+              
                   <li>Plano de Abertura</li>
-                  <li>Kanban</li>
                   <li>Plano de Gerenciamento de Configuração</li>
                 </ul>
                 <h3><strong>Execução</strong></h3>

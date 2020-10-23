@@ -29,7 +29,7 @@ function App() {
             <Navigation>
               <Link to="/aboutus">Sobre Nós</Link>
               <Link to="/product">Produto</Link>
-              <Link to="/process">Processos</Link>
+              {/*<Link to="/process">Processos</Link>*/}
               <Link to="/artifacts">Artefatos</Link>
               {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>
@@ -54,7 +54,7 @@ function App() {
             <Navigation>
               <Link to="/aboutus">Sobre Nós</Link>
               <Link to="/product">Produto</Link>
-              <Link to="/process">Processos</Link>
+              {/*<Link to="/process">Processos</Link>*/}
               <Link to="/artifacts">Artefatos</Link>
               {/*<Link to="/roles">Papéis</Link>*/}
               <Link to="/tools">Ferramentas</Link>

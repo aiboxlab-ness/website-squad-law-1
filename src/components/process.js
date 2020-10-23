@@ -49,7 +49,7 @@ class Process extends Component {
                   <li><strong>Extração de Informações</strong></li>
                 </ul>
               </p>  
-              <div className="modulo-1-wbs"><img src={wbs} alt="wbs" style={{ width:"100%", margin: "auto"}} /></div>
+              <div className="modulo-1-wbs" style={{ width:"100%", margin: "auto"}}><img src={wbs} alt="wbs" style={{ width:"50%", margin: "auto", textAlign: "center"}} /></div>
             </Cell>
           </Grid>
         </div>
