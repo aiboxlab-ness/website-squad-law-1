@@ -32,6 +32,7 @@ class Artifacts extends Component {
                 </ul>
                 <h3><strong>Planejamento</strong></h3>
                 <ul>
+                
                 <li><a
                   href="https://trello.com/b/jnc8AwH1/artificilaw-produto"
                   rel="noopener noreferrer"
@@ -44,7 +45,22 @@ class Artifacts extends Component {
                   target="_blank"
                   >
                   História de Usuário</a></li>
-                  
+
+                  <li><a
+                  href="https://docs.google.com/presentation/d/1TJk5UrNyQw2DyWkXLHgpTZ_mG0ePOzsDUm17bhGbPqA/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Mapa de Stakeholders</a></li>
+
+                  <li><a
+                  href="https://docs.google.com/presentation/d/1SjVVjP0TRSPhBqZkA0Te3EUairVKgiAwcJSuPrKhZSg/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Minimum Valuable Product - MVP</a></li>
+
+            
                   <li><a
                   href="https://docs.google.com/presentation/d/1dyIoabZVPsR4AHTwQsRHbDsfdfSvTnOSkeKxI47S7bM/edit?usp=sharing"
                   rel="noopener noreferrer"
@@ -81,7 +97,6 @@ class Artifacts extends Component {
                 </ul>
                 <h3><strong>Outros</strong></h3>
                 <ul>
-                  <li>Mapa de Stakeholders</li>
                   <li>PM Canvas</li>
                   <li>Planilha de métrica e indicadores</li>
                   <li>BSC</li>   
