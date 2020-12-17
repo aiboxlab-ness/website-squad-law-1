@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/website-squad-law-1/static/css/main.46f4cbf4.chunk.css",
-    "main.js": "/website-squad-law-1/static/js/main.1b5ca4db.chunk.js",
-    "main.js.map": "/website-squad-law-1/static/js/main.1b5ca4db.chunk.js.map",
+    "main.js": "/website-squad-law-1/static/js/main.10318433.chunk.js",
+    "main.js.map": "/website-squad-law-1/static/js/main.10318433.chunk.js.map",
     "runtime-main.js": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js",
     "runtime-main.js.map": "/website-squad-law-1/static/js/runtime-main.ebf6c1a6.js.map",
     "static/css/2.e4346227.chunk.css": "/website-squad-law-1/static/css/2.e4346227.chunk.css",
     "static/js/2.0ad00dd6.chunk.js": "/website-squad-law-1/static/js/2.0ad00dd6.chunk.js",
     "static/js/2.0ad00dd6.chunk.js.map": "/website-squad-law-1/static/js/2.0ad00dd6.chunk.js.map",
     "index.html": "/website-squad-law-1/index.html",
-    "precache-manifest.68c9f3bb2702e54aa2ea4eaeb44e8f50.js": "/website-squad-law-1/precache-manifest.68c9f3bb2702e54aa2ea4eaeb44e8f50.js",
+    "precache-manifest.197f125ec353a6befa3b76012e818d4d.js": "/website-squad-law-1/precache-manifest.197f125ec353a6befa3b76012e818d4d.js",
     "service-worker.js": "/website-squad-law-1/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/website-squad-law-1/static/css/2.e4346227.chunk.css.map",
     "static/css/main.46f4cbf4.chunk.css.map": "/website-squad-law-1/static/css/main.46f4cbf4.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.e4346227.chunk.css",
     "static/js/2.0ad00dd6.chunk.js",
     "static/css/main.46f4cbf4.chunk.css",
-    "static/js/main.1b5ca4db.chunk.js"
+    "static/js/main.10318433.chunk.js"
   ]
 }
