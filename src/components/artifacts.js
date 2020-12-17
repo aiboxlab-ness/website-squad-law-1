@@ -73,12 +73,24 @@ class Artifacts extends Component {
                   target="_blank"
                   >
                   Apresentação da Primeira Reunião com a PO</a></li>
-              
-                  <li>Plano de Abertura</li>
-                  <li>Plano de Gerenciamento de Configuração</li>
+      
                 </ul>
                 <h3><strong>Execução</strong></h3>
                 <ul>
+                <li><a
+                  href="https://docs.google.com/presentation/d/1ZFzTs6tIr6vLzSKwCyZi2ojLucpp_UiNz71K8_ESli4/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Pitch do Módulo 1</a></li>
+
+                  <li><a
+                  href="https://docs.google.com/document/d/1bmSkG5EkWjLG6GzJKsBMtYMxeSSffzTYzI1R1zOMZUc/edit?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >
+                  Relatório de Acompanhamento do JudLaw</a></li>
+
                   <li>Documentação da Arquitetura</li>
                   <li>Documento de kickoff</li>
                   <li>Documento de Sprint Planning</li>
